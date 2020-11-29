@@ -1,0 +1,617 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN_r8OUuhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN8rsOUuhs.ttf) format('truetype');
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 26px;
+  padding: 0 0 30px 0;
+  font-weight: 100;
+  text-align: left;
+}
+h3 {
+  color: #253544;
+  font-size: 20px;
+  font-weight: 100;
+}
+h6 {
+  color: #253544;
+  font-size: 20px;
+  font-weight: 400;
+}
+h7 {
+  color: #253544;
+  font-size: 16px;
+  font-weight: 400;
+}
+h8 {
+  color: grey;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 20px 0;
+}
+h4 {
+  font-size: 22px;
+  font-weight: 800;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 0 0 30px 0;
+  text-transform: uppercase;
+}
+.h5 {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 0 0 0px 0;
+}
+.light {
+  font-weight: 100;
+}
+.extrabold {
+  font-weight: 800;
+}
+a {
+  color: #253544;
+}
+.italic {
+  font-style: italic;
+}
+#intro button {
+  font-size: 26px;
+}
+#intro p {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.contact {
+  background-color: #C7C8CA;
+  background: url(../images/2colors.jpg) no-repeat;
+  vertical-align: bottom;
+  display: inline-block;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  background-position: 0 0 0 0;
+  background-repeat: no-repeat no-repeat;
+}
+.copyright-left,
+.copyright-right {
+  font-size: 12px;
+  font-weight: 100;
+}
+.copyright-right {
+  text-align: right;
+}
+.white {
+  color: white;
+}
+.grey {
+  color: grey;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  font-weight: 400;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 450px;
+}
+.navbar-brand {
+  background: url(/gallery/img/logosmall.png) center / contain no-repeat;
+  width: 300px;
+  padding: 25px;
+  max-width: 100%;
+  margin: 10px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #253544;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: grey;
+}
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+  max-height: 540px;
+}
+#frontpage a:hover {
+  text-decoration: none;
+}
+.border-right {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+.intro-header {
+  background-color: gray;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  padding: 0px 0 50px;
+  color: #fff;
+}
+.startfront {
+  background: url(/css/synsation-front.jpg) no-repeat top center;
+  background-size: cover;
+  height: 100%;
+}
+.fronter {
+  background-color: rgba(9, 9, 9, 0.1);
+}
+.post-preview {
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading,
+  .intro-header .post-heading,
+  .intro-header .page-heading {
+    padding: 120px 0;
+  }
+}
+.navbar-inverse {
+  background-color: white;
+  border-color: white;
+  border: none;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #253544;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border: none;
+}
+.nav > li > a {
+  padding: 25px 10px;
+  text-align: center;
+  border-bottom: 1px solid rgba(37, 53, 58, 0.1);
+}
+.navbar {
+  border: none;
+}
+.navbar-nav {
+  margin: 0 15px 0;
+}
+.navbar-toggle {
+  padding: 20px;
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-space {
+  padding-left: 0;
+  margin-left: 0;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  font-weight: bold;
+  color: #253544;
+  background-color: transparent;
+}
+#myCarousel .carousel-caption,
+#myCarousel0 .carousel-caption,
+#myCarousel1 .carousel-caption,
+#myCarousel2 .carousel-caption,
+#myCarousel3 .carousel-caption {
+  background-color: rgba(37, 53, 58, 0.4);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  padding-left: 5%;
+}
+#myCarousel .carousel-indicators,
+#myCarousel0 .carousel-indicators,
+#myCarousel1 .carousel-indicators,
+#myCarousel2 .carousel-indicators,
+#myCarousel3 .carousel-indicators {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  z-index: 15;
+  width: 70%;
+  padding-left: 0;
+  margin-left: -25%;
+  text-align: right;
+  list-style: none;
+}
+#myCarousel .carousel-indicators li,
+.carousel-indicators .active,
+#myCarousel0 .carousel-indicators li,
+.carousel-indicators .active,
+#myCarousel1 .carousel-indicators li,
+.carousel-indicators .active,
+#myCarousel2 .carousel-indicators li,
+.carousel-indicators .active,
+#myCarousel3 .carousel-indicators li,
+.carousel-indicators .active {
+  width: 18px;
+  height: 18px;
+  margin: 1px;
+}
+#myCarousel .carousel-inner,
+#myCarousel0 .carousel-inner0,
+#myCarousel1 .carousel-inner1,
+#myCarousel2 .carousel-inner2,
+#myCarousel3 .carousel-inner2 {
+  margin-top: 50px;
+}
+#myCarousel .carousel-inner .item img,
+#myCarousel0 .carousel-inner .item img,
+#myCarousel1 .carousel-inner .item img,
+#myCarousel2 .carousel-inner .item img,
+#myCarousel3 .carousel-inner .item img {
+  width: 100%;
+}
+.intro {
+  padding: 40px 0;
+}
+.positionering {
+  padding: 40px 0;
+  margin-top: 0;
+  text-align: center;
+  background-color: #253544;
+}
+.blokbg_purple {
+  color: white;
+  border: solid 1px #9b99cc;
+  padding: 60px;
+  font-size: 2em;
+  background-color: #9b99cc;
+  display: block;
+  margin: 14px 0;
+}
+a.blokbg_purple.ng-binding:hover {
+  background-color: #d4d3ff;
+  text-decoration: none;
+}
+.noline {
+  text-decoration: none;
+}
+.yourquestions {
+  padding: 40px 0 0px 0;
+  color: #253544;
+  text-align: center;
+  background-color: #ededed;
+}
+.h200 {
+  height: 230px;
+}
+#yourquestions .carousel-indicators li {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #253544;
+  border-radius: 50%;
+}
+#yourquestions .carousel-indicators .active {
+  text-indent: -999px;
+  width: 14px;
+  height: 14px;
+  margin: 1px;
+  background-color: #253544;
+}
+.arrow-up {
+  text-align: center;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 25px solid white;
+  margin: 0 auto;
+}
+.pijl,
+footer,
+#footer a {
+  background-color: darkslategrey;
+}
+footer,
+#footer a {
+  padding: 30px 0 0 0px;
+  color: white;
+}
+.btn-round {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+.btn-round.btn-lg {
+  width: 56px;
+  height: 56px;
+}
+.btn-round.btn-sm {
+  width: 44px;
+  height: 44px;
+}
+.btn-primary {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  font-size: 110%;
+  margin: 0;
+}
+.solutions .btn-primary {
+  color: #1b3242;
+  background-color: transparent;
+  border-color: #1b3242;
+  font-size: 110%;
+  margin: 0;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+  color: #fff;
+  padding: 0px 0px;
+  font-size: 22px;
+}
+.btn-primary:hover {
+  color: #253544;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+.solutions .btn-primary:hover {
+  color: #253544;
+  background-color: transparent;
+  border-color: rgba(43, 43, 43, 0.25);
+}
+.oplossingen_titel {
+  padding-top: 8px;
+}
+.blokimg {
+  text-align: left;
+}
+#oplossingen p {
+  line-height: 2em;
+}
+.clients {
+  padding: 10px 0 15px;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  background-color: #1b3242;
+}
+.clients h5 {
+  padding: 0px;
+}
+.circle {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: 2em 0;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+.circle:after {
+  display: block;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  border: 1px solid white;
+  content: "";
+}
+.circle__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+}
+.circle__wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.circle__content {
+  display: table-cell;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 16px;
+  text-justify: inter-word;
+}
+.experience {
+  padding: 40px 0 40px;
+  color: #253544;
+  text-align: center;
+  margin-top: 0;
+  background-color: #ededed;
+}
+.blokbg-purple,
+.blokbg-purple a {
+  background-color: #9b99cb;
+  border: none;
+  color: white;
+}
+.panel-default > .panel-heading {
+  color: #253544;
+  background-color: white;
+}
+.panel-default > .panel-heading {
+  background-color: white;
+}
+.panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: none;
+}
+.panel-body {
+  padding: 15px 0 25px;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #253544;
+  border-bottom-width: 0.1px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+}
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0px;
+}
+.panel-heading a:before {
+  font-family: 'Glyphicons Halflings';
+  content: "\e259";
+  float: right;
+  transition: all 0.5s;
+  font-size: 20px;
+}
+.panel-heading.active a:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.panel-title > a,
+.panel-title > a:active {
+  display: block;
+  padding: 15px;
+  background-color: white;
+}
+.panel-title {
+  font-size: 26px;
+  padding: 0 0 0px 0;
+  font-weight: 100;
+  text-decoration: none;
+  text-align: center;
+}
+.panel-title a:hover,
+.panel-title a:visited {
+  text-decoration: none;
+}
+#intro h5 {
+  padding: 0;
+}
+.solutions ul {
+  margin-left: 20px;
+  padding: 0px;
+}
+.solutions li {
+  font-size: 8px;
+  margin: 8px 0;
+  padding: 0px;
+}
+.solutions li span {
+  font-size: 16px;
+}
+@media (min-width: 991px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .navbar-brand {
+    width: 350px;
+  }
+  .nav > li > a {
+    border-bottom: none;
+    font-size: 12px;
+  }
+}
+@media (max-width: 991px) {
+  .border-right {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+@media (max-width: 468px) {
+  .navbar-brand {
+    width: 230px;
+  }
+  .h200 {
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=styles3.css.map */
